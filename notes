@@ -1,0 +1,11 @@
+# to run create a virtualenv called 'venv'
+virtualenv venv
+source venv/bin/activate
+pip install Flask==0.10.1
+
+#then execute the script
+python hello.py
+
+#to remove virtualenv run
+deactivate
+rm -rf venv
